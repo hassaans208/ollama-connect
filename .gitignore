@@ -1,0 +1,77 @@
+# ===================================
+# ROOT
+# ===================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===================================
+# BACKEND (Laravel) - backend/
+# ===================================
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/.env.backup
+backend/.env.production
+backend/.phpunit.result.cache
+backend/Homestead.json
+backend/Homestead.yaml
+backend/npm-debug.log
+backend/yarn-error.log
+backend/storage/*.key
+backend/storage/app/*
+!backend/storage/app/public
+backend/storage/app/public/*
+!backend/storage/app/public/.gitkeep
+backend/storage/framework/cache/*
+!backend/storage/framework/cache/.gitkeep
+backend/storage/framework/sessions/*
+!backend/storage/framework/sessions/.gitkeep
+backend/storage/framework/testing/*
+!backend/storage/framework/testing/.gitkeep
+backend/storage/framework/views/*
+!backend/storage/framework/views/.gitkeep
+backend/storage/logs/*
+!backend/storage/logs/.gitkeep
+backend/storage/*.key
+backend/bootstrap/cache/*
+!backend/bootstrap/cache/.gitkeep
+backend/public/hot
+backend/public/storage
+backend/public/build/
+backend/.phpunit.cache
+backend/auth.json
+
+# ===================================
+# FRONTEND (React) - frontend/
+# ===================================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+frontend/coverage/
+frontend/.cache/
+frontend/.parcel-cache/
+
+# ===================================
+# OS / Editor junk (applies anywhere)
+# ===================================
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
